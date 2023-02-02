@@ -1,0 +1,55 @@
+ h1 {font-family: arial;
+     font-size: 35px;
+     text-align: left;
+     color: white;
+   margin-bottom: 65px;}
+h2 {text-align: left;
+    color: white;
+  margin-bottom: 65px;
+font-family: arial;}
+h3 {font-family: arial;
+    font-size: 35px;
+    text-align: left;
+    color: red;
+  margin-bottom: 65px;}
+p  {text-align: left;
+    color: white;
+ font-size: 25px;
+font-family: arial;
+line-height: 2em;
+margin-bottom: 65px;}
+body{margin: 0;
+    padding: 0;}
+.link2-p{ text-align: left;
+          margin-top: 360px;}
+.link1-p{text-align: left;
+  margin-top: 360px;}
+.btn{border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "arial";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;}
+.link1{color: #fff;}
+.link2{color: #fff;}
+.link1:hover{color: #2980b9;}
+.link2:hover{color: #2980b9;}
+.btn::before{content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #fff;
+  z-index: -1;
+  transition: 0.8s;}
+.link1::before{top: 0;
+  border-radius: 0 0 50% 50%;}
+.link2::before{bottom: 0;
+  border-radius: 50% 50% 0 0;}
+.btn3::before,.btn4::before{height: 180%;}
+.link1:hover::before,.link2:hover::before{height: 180%;}
+.btn3:hover::before,.btn4:hover::before{height: 0%;}
